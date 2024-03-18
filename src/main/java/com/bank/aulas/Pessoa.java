@@ -11,4 +11,10 @@ public class Pessoa {
 		//passa o nome completo e retorna o ultimo
 //	}
 	
+	public Pessoa(String nome) {
+	}
+
+	public Pessoa() {
+	}
+	
 }
