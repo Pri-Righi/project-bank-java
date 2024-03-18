@@ -1,14 +1,14 @@
 package com.bank.aulas;
 
-public class Conta {
+public class ContaEstudo {
 	private String nif;
 	private String iban;
 	private double saldo;
 	public static String tipoConta = "Poupanca";
 	
-	public Conta() {}
+	public ContaEstudo() {}
 	
-	public Conta(String nif, String iban, double saldo) {
+	public ContaEstudo(String nif, String iban, double saldo) {
 		this.nif = nif;
 		this.iban = iban;
 		this.saldo = saldo;
@@ -23,7 +23,7 @@ public class Conta {
 		this.saldo = (this.saldo * 0.01) + this.saldo;
 	}
 
-	public void transf(double valorTrans, Conta contaCredit) {
+	public void transf(double valorTrans, ContaEstudo contaCredit) {
 		if (this.saldo < valorTrans) {
 			System.out.println("Nao tem saldo suficiente para realizar a transferencia.");
 		} else {
