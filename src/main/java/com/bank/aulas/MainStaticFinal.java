@@ -5,6 +5,9 @@ public class MainStaticFinal {
         Pessoa.nomePriscila = "Priscila";
         System.out.println(Pessoa.nomePriscila);
 
+        System.out.println(Pessoa.retornaUltimoNome("Priscila Robbe Righi"));
         //Pessoa.nomeAntonio = "Priscila"; não é possivel modificar
     }
+
+
 }
