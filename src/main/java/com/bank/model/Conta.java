@@ -1,10 +1,15 @@
 package com.bank.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Conta {
+    //ATRIBUTOS
     private String numeroDaConta;
     private double saldo;
     private String cpf;
 
+    //METODO
     public abstract String getTipoConta();
 
     //ENCAPSULAMENTO get e set
@@ -31,4 +36,5 @@ public abstract class Conta {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
 }

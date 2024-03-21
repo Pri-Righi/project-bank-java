@@ -6,7 +6,6 @@ public class Funcionario extends Pessoa {
     public String getCargo() {
         return cargo;
     }
-
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
