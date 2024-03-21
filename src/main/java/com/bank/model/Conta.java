@@ -9,8 +9,19 @@ public abstract class Conta {
     private double saldo;
     private String cpf;
 
+    public Conta () {
+
+    }
+
+    public Conta(String numeroDaConta, double saldo) {
+        this.numeroDaConta = numeroDaConta;
+        this.saldo = saldo;
+    }
+
     //METODO
     public abstract String getTipoConta();
+
+
 
     //ENCAPSULAMENTO get e set
     public String getNumeroDaConta() {
