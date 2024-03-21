@@ -20,11 +20,11 @@ public class MainContaPessoa {
 //            System.out.println("essa pessoa é funcionario");
 //        }
 
-        Cliente.adicionarCliente(new Cliente("priscila"));
+        /*Cliente.adicionarCliente(new Cliente("priscila"));
         Cliente.adicionarCliente(new Cliente("antonio"));
         Cliente.adicionarCliente(new Cliente("joão"));
         Cliente.adicionarCliente(new Cliente("joão"));
-        Cliente.adicionarCliente(new Cliente("maria"));
+        Cliente.adicionarCliente(new Cliente("maria"));*/
 
 
 
